@@ -1,5 +1,5 @@
 import pytest
-from service_fee import calcuate_service_fee
+from service_fee import calculate_service_fee
 
 
 def test_zero_amount():
