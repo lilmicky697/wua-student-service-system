@@ -3,4 +3,4 @@ def validate_request_description(description):
     if not isinstance(description, str):
         return False
     cleaned = description.strip()
-    return 1 <= len(cleaned) <= 500
+    return 1 <= len(cleaned) == 500
