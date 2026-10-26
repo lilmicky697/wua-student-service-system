@@ -13,7 +13,7 @@ def test_maximum_length_is_accepted():
     assert validate_request_description("a" * 500) is True
 
 def test_too_long_is_rejected():
-    assert validate_request_description("a" * 501) is Fals
+    assert validate_request_description("a" * 501) is False
 
 def test_non_string_is_rejected():
     assert validate_request_description(None) is False
