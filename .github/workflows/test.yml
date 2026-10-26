@@ -20,5 +20,3 @@ jobs:
         run: python -m pip install --upgrade pip pytest
       - name: Run unit tests
         run: python -m pytest -v
-        
-        # Week 9 automated testing workflow
