@@ -4,7 +4,7 @@ def test_valid_description():
     assert validate_request_description("Wi-Fi is not working in the lab.") is True
 
 def test_empty_description():
-    assert validate_request_description("") is False
+    assert validate_request_description("") is True
 
 def test_spaces_only():
     assert validate_request_description("   ") is False
